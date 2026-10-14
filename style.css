@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Tarjeta o contenedor principal */
+.contenedor {
+  background-color: #ffffff;
+  padding: 30px;
+  max-width: 650px;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Títulos y subtítulos */
+h1 {
+  font-size: 24px;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.instruccion {
+  color: #666666;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/* Fila del campo de entrada y botón de agregar */
+.fila-entrada {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.fila-entrada label {
+  font-size: 14px;
+  color: #333333;
+}
+
+.fila-entrada input {
+  padding: 6px 8px;
+  border: 1px solid #777777;
+  font-size: 14px;
+  width: 200px;
+  outline: none;
+}
+
+/* Estilos comunes para los botones */
+button {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
+
+/* Fila del área de texto y botón limpiar */
+.fila-salida {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+textarea {
+  flex: 1;
+  height: 180px;
+  padding: 10px;
+  border: 1px solid #777777;
+  border-radius: 6px;
+  resize: none;
+  font-family: inherit;
+  font-size: 14px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/* Estilo para el texto placeholder */
+textarea::placeholder {
+  color: #777777;
+}
